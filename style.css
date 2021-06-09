@@ -1,0 +1,110 @@
+
+.myButton {
+	
+	background:linear-gradient(to bottom, #5200B5 5%, #5E18B2 100%);
+	background-color:#5200B5;
+	border-radius:18px;
+	border:1px solid #5200B5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+    margin-bottom: 5%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5E18B2 5%, #5200B5 100%);
+	
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#anotherthing{
+    align-items: left;
+    text-align: left;
+    margin-top: -3%;
+}
+
+
+    .verysusdiv {
+        height: 80%;
+        width: 100%;
+        background-color: #1C003D;
+        margin-bottom: 30px;
+        /*display: flex; */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .verysusdiv h1 {
+        text-align: center;
+        vertical-align: center;
+
+    }
+
+    img {
+        height: 250px;
+        float: left;
+        /*  margin: 10px; */
+
+    }
+
+    #titleimg {
+        clear: both;
+        display: block;
+        float: center;
+
+    }
+
+    #sussydiv1 {
+        margin-top: 14%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sussydiv2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div {
+
+        width: 150%;
+        height: 1;
+        margin: 0px;
+    }
+
+    @font-face {
+        font-family: "whitney";
+        src: url("whitneymedium.otf");
+    }
+
+    .center {
+        margin: auto;
+        width: 40%;
+        border: 3px solid white;
+        padding: 10px;
+        height: 270px;
+        word-break: break-word;
+        text-align: right;
+    }
+
+
+    body {
+
+        font-family: whitney;
+        color: white;
+
+        background-color: black;
+
+    }
