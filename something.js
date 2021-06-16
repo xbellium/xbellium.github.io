@@ -1,6 +1,4 @@
-//edit the number of inputted files here
 var howMuchFiles;
-
 var textFromFile;
 
 

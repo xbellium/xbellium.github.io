@@ -20,27 +20,18 @@ console.log("how much files" +howMuchFiles)
 
 
 function addElement() {
-  console.log("hmm parse int" + howMuchFiles)
     howMuchFiles = parseInt(howMuchFiles)
     howMuchFiles = howMuchFiles + 1;
     counted();
 }
-
-
-
-
 
 function counted() {
     howMuchFiles = +howMuchFiles - 1;
     if (howMuchFiles == 0) {
         console.log("Finished loading images")
     } else {
-      
         console.log(howMuchFiles)
-anotherFile = toString(howMuchFiles);
-
-console.log("very sus thing "+"names/"+howMuchFiles+".txt")
-
+        anotherFile = toString(howMuchFiles);
         fetch("names2/"+howMuchFiles+".txt")
         .then(function(response){
             return response.text();
